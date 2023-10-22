@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+.color-container {
+  margin: 20px auto;
+  border: 1px solid #333;
+}
+
+.color-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.red{
+ background: red;
+}
+.blue{
+  background: blue;
+ }
+ .green{
+  background: green;
+ }
+ .yellow{
+  background: yellow;
+ }
+ .purple{
+  background: purple;
+ }
+ .pink{
+  background: pink;
+ }
+ .orange{
+  background: orange;
+ }
+ .brown{
+  background: brown;
+ }
+ .black{
+  background: black;
+ }
+button:hover {
+  background-color: #555;
+}
